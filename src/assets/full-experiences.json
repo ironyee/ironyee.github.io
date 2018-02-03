@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "title": "Full-stack Developer",
+    "company": "Ecolemo",
+    "website": "https://ecolemo.com/",
+    "address": "Seongnam, Gyeonggi-do, Korea",
+    "date": "Aug 2017 - Present",
+    "projects": [
+      [
+        "[LG Digital Signage Total Care Service, Sep 2017 - Dec 2017]",
+        "Anomaly pattern data processing using pyspark with data frames",
+        "\tCollected statistics for each metrics every 3, 30, 90 days",
+        "\tManaged on-demand hadoop clusters and queried data with Microsoft Azure HDInsight, DataFactory V2, Storage Account"
+      ],
+      [
+        "[Puddlr—messaging service for teams, Aug 2017 - Now]",
+        "Built a desktop application with customized notifications and a download status bar communicating between the main process and renderer processes using Electron",
+        "Set up a test automation with Selenium—Auto type a message every 10 minutes and check if the message was delivered successfully"
+      ]
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Full-stack Developer",
+    "company": "MobileTax",
+    "website": "https://mobiletax.kr/",
+    "address": "Seocho-gu, Seoul, Korea",
+    "date": "May 2016 - Jul 2017·1 yr 3 mos",
+    "projects": [
+      [
+        "Hacked growth for early-stage startup",
+        "\tDesigned and developed Tracking system via cross-browsing fingerprinting, which includes the values that can identify the devices—IP address, Screen size, Device model name, etc.",
+        "\tIntegrated with Google Analytics and Mixpanel",
+        "\tTracked deep link app referrer",
+        "\tImproved valid tracking rate by over 60% and reduced CAC by over $100 (Customer Acquisition Cost)",
+        "Designed and developed Complex UI for Tax accountants.",
+        "\tInline editing with Vue.js",
+        "\tWeb-based Javascript Spreadsheets with Handsontable",
+        "\tImported/exported password protected excel files and PDF files",
+        "Handled accounting data in Django",
+        "\tConverted the labor costs information to printable formats and sent it by fax",
+        "\tSupported financial statements in binary formats for communicating with National Tax Service",
+        "Wrapped a web application in iOS and Android app",
+        "Migrated an existing vanilla javascript chat application to Vue.js"
+      ]
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Full-stack Developer",
+    "company": "Flying Loft Inc.",
+    "website": "https://flyingloft.com/",
+    "address": "Guro-gu, Seoul, Korea",
+    "date": "Aug 2015 - May 2016·10 mos",
+    "projects": [
+      [
+        "Developed a multi-platform mobile application communicating with low powered thermometer using React native and showed a mesh network structure of low powered devices and tracked BLE beacon using D3.js force layout",
+        "Designed and developed complex UI using React.js",
+        "\tCreated a table with dynamic columns, that can be added, removed, arranged and sorted",
+        "\tSearched query builder that can add a row that contains query information—field, and/or, keyword, etc.",
+        "Made dynamic trees with animations to help understand the structure of the patent using D3.js",
+        "Complex query using Eleasticsearch"
+      ]
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Freelance Software Developer",
+    "company": "Koino",
+    "website": "http://koino.net/",
+    "address": "Guro-gu, Seoul, Korea",
+    "date": "May 2014 - Apr 2015·1 yr",
+    "projects": [
+      [
+        "[LG Digital Signage Total Care Service, May 2014 - Aug 2014]",
+        "Designed and developed Complex UI for managing digital signage devices",
+        "\tInline editing with AngularJS 1.x",
+        "\tComposed hierarchy trees",
+        "Built a restful API server using Django"
+      ],
+      [
+        "[AnySupport iOS—Remote support client for iOS, Sep 2014 - Apr 2015]",
+        "Communicated with the dedicated server in TCP",
+        "Captured and shared a screen periodically",
+        "Renewed and enhanced an existing application with navigation-based UI",
+        "Developed multi-language support, drawing feature on the screen, and sharing feature system information profile"
+      ],
+      [
+        "[LinkMeMine—Infrastructure Management Service, Jan 2015 - Feb 2015]",
+        "Developed a websocket proxy server for the legacy server on top of Python asyncio"
+      ]
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Backend Developer",
+    "company": "IDIOCRACY,INC",
+    "website": "http://idiocracygames.com/",
+    "address": "Seongnam, Gyeonggi-do, Korea",
+    "date": "Sep 2014 - Dec 2014·4 mos",
+    "projects": [
+      [
+        "Designed and developed a dedicated game server on top of Python asyncio",
+        "\tCommunicated with a unity client using protocol buffer",
+        "\tProcessed game resources from csv with metaprogramming",
+        "Improved performance of waiting queues",
+        "Developed a asyncio-compatible mysql pool library",
+        "Resolved a web socket connection issue over 3G network on O2 in the UK"
+      ]
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Backend Developer",
+    "company": "Gala Lab Corp.",
+    "website": "http://www.galalab.kr/eng/",
+    "address": "Gangnam-gu, Seoul, Korea",
+    "date": "Aug 2009 - Nov 2013·4 yrs 4 mos",
+    "projects": [
+      [
+        "Gala Lab is a game developer with focus on developing MMORPG games. Rappelz, a game developed by Gala Lab, has been serviced in 59 countries including Korea, North America, Europe, Russia, Mid-East. The company won the 10 million USD export tower in 2010 by the Korea International Trade Association.",
+        "Developed a multithreaded C++ server for an MMORPG game named Rappelz",
+        "\tAnalyzed and debugged a thread and lock system on the grid-based tile and resolved 700+ crash dumps and classified them into 6 main categories and 103 sub categories",
+        "\tImplemented game play features—PvP, Item enhancement, 15 character classes and their skills, set items, etc.",
+        "\tDeployed 120 weekly updates every week (for 2 years and 3 months)",
+        "To optimize MSSQL tables where frequent insert and delete operations occur, debounced status updates to reduce number of queries and reused rows from a managed set of unused rows. As a result, status update queries was reduced by 40%",
+        "Designed and developed database caching using compare-and-swap operation implemented by getset command of Redis",
+        "Developed a monitoring tool to track the status of distributed game servers behind firewalls and to call RPCs using the apache zookeeper"
+      ]
+    ]
+  }
+]

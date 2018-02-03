@@ -1,32 +1,62 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <router-view/>
 </template>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@page {
+    size: A4;
+    margin: 0;
 }
 
-#nav {
-  padding: 30px;
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    background: #fff;
+  }
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInDown {
+  transition: all 0.3;
+  animation: fadeInDown 1 1.3s;
+}
+
+.fadeIn {
+  animation: fadeIn 1 0.9s;
+}
+
+.fadeInLeft {
+  animation: fadeInLeft 1 0.9s;
 }
 </style>
