@@ -9,8 +9,7 @@
     "projects": [
       [
         "Anomaly pattern data processing using pyspark with data frames",
-        "\tCollected statistics for each metrics every 3, 30, 90 days",
-        "\tManaged on-demand hadoop clusters and queried data with Microsoft Azure HDInsight, DataFactory V2, Storage Account",
+        "Managed on-demand hadoop clusters and queried data with Microsoft Azure HDInsight, DataFactory V2, Storage Account",
         "Built a desktop application with customized notifications and a download status bar communicating between the main process and renderer processes using Electron",
         "Set up a test automation with Selenium—Auto type a message every 10 minutes and check if the message was delivered successfully"
       ]
@@ -22,19 +21,16 @@
     "company": "MobileTax",
     "website": "https://mobiletax.kr/",
     "address": "Seocho-gu, Seoul, Korea",
-    "date": "May 2016 - Jul 2017·1 yr 3 mos",
+    "date": "May 2016 - Jul 2017 · 1 yr 3 mos",
     "projects": [
       [
-        "Hacked growth for early-stage startup",
-        "\tDesigned and developed Tracking system via cross-browsing fingerprinting, which includes the values that can identify the devices—IP address, Screen size, Device model name, etc.",
-        "\tIntegrated with Google Analytics/Mixpanel and tracked deep link app referrer",
-        "\tImproved valid tracking rate by over 60% and reduced CAC by over $100 (Customer Acquisition Cost)",
+        "Designed and developed Tracking system via cross-browsing fingerprinting, which includes the values that can identify the devices—IP address, Screen size, Device model name, etc.",
+        "Integrated with Google Analytics/Mixpanel and tracked deep link app referrer",
+        "Improved valid tracking rate by over 60% and reduced CAC by over $100 (Customer Acquisition Cost)",
         "Designed and developed an admin tool for Tax accountants with Vue.js",
         "\tDeveloped complex UI including an inline editing and a web-based javascript spreadsheet with Handsontable",
-        "\tImported/exported password protected excel files and PDF files",
         "\tConverted the labor costs information to printable formats and sent it by fax",
         "\tSupported financial statements in binary formats for communicating with National Tax Service",
-        "Wrapped a web application in iOS and Android app",
         "Migrated an existing vanilla javascript chat application to Vue.js"
       ]
     ]
@@ -45,13 +41,13 @@
     "company": "Flying Loft Inc.",
     "website": "https://flyingloft.com/",
     "address": "Guro-gu, Seoul, Korea",
-    "date": "Aug 2015 - May 2016·10 mos",
+    "date": "Aug 2015 - May 2016 · 10 mos",
     "projects": [
       [
         "Developed a multi-platform mobile application communicating with low powered thermometer using React native",
         "Showed a mesh network structure of low powered devices and tracked BLE beacon using D3.js force layout",
         "Designed and developed a complex UI including a table with dynamic columns and search query builder for Elasticsearch",
-        "Made dynamic trees with animations to help understand the structure of the patent using D3.js"
+        "Made dynamic trees with animations to show the structure of the patent using D3.js"
       ]
     ]
   },
@@ -61,10 +57,10 @@
     "company": "Koino",
     "website": "http://koino.net/",
     "address": "Guro-gu, Seoul, Korea",
-    "date": "May 2014 - Apr 2015·1 yr",
+    "date": "May 2014 - Apr 2015 · 1 yr",
     "projects": [
       [
-        "Developed an agent to collect system informations and built a restful API server using Django to handle data from agents of IOT devices",
+        "Developed an agent to collect system informations and built a restful API server to handle data from agents using Django",
         "Designed and developed Complex UI for managing digital signage devices with AngularJS 1.x",
         "Communicated with the dedicated server in TCP and sent a captured screen periodically to the server",
         "Developed a websocket proxy server for the legacy server on top of Python asyncio"
@@ -77,7 +73,7 @@
     "company": "IDIOCRACY,INC",
     "website": "http://idiocracygames.com/",
     "address": "Seongnam, Gyeonggi-do, Korea",
-    "date": "Sep 2014 - Dec 2014·4 mos",
+    "date": "Sep 2014 - Dec 2014 · 4 mos",
     "projects": [
       [
         "Designed and developed a dedicated game server communicating with a unity client using protocol buffer on top of Python asyncio",
@@ -92,7 +88,7 @@
     "company": "Gala Lab Corp.",
     "website": "http://www.galalab.kr/eng/",
     "address": "Gangnam-gu, Seoul, Korea",
-    "date": "Aug 2009 - Nov 2013·4 yrs 4 mos",
+    "date": "Aug 2009 - Nov 2013 · 4 yrs 4 mos",
     "projects": [
       [
         "Gala Lab is a game developer with focus on developing MMORPG games. Rappelz, a game developed by Gala Lab, has been serviced in 59 countries including Korea, North America, Europe, Russia, Mid-East. The company won the 10 million USD export tower in 2010 by the Korea International Trade Association.",

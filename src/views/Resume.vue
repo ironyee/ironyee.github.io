@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="flex">
     <aside>
       <div class="profile-wrap fadeInDown">
         <h4>{{ profile.name }}</h4>
@@ -36,7 +36,9 @@
         <div :key="skill" v-for="progress, skill in skills">
           {{ skill }}
           <div class="progress">
-            <div class="progress-bar bg-info" :style="`width: ${progress}%`" :aria-valuenow="progress" aria-valuemax="100"/>
+            <div class="progress-bar bg-info" :style="`width: ${progress}%`" :aria-valuenow="progress" aria-valuemax="100">
+              {{ progress }}
+            </div>
           </div>
         </div>
       </div>
@@ -85,3 +87,9 @@ export default class Resume extends Vue {
   }
 }
 </script>
+
+<style scoped>
+.flex {
+  display: flex;
+}
+</style>

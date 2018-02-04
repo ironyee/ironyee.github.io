@@ -21,3 +21,12 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+favicon.ico
+index.html
+manifest.json
+service-worker.js
+js
+img
+fonts
+css

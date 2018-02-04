@@ -1,5 +1,5 @@
 <template>
-  <div class="fadeInLeft small">
+  <div class="fadeInLeft">
     <ul>
       <template v-for="item in items">
         <li v-if="item.startsWith('\t')">{{ item }}</li>

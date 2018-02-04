@@ -1,7 +1,6 @@
 <template>
   <div class="experience" :class="classes">
     <span class="title">{{ title }} at {{ company }}</span>
-    ({{ address }})
     <span class="date small">{{ date }}</span>
     <Description :items="project" :key="i" v-for="project, i in projects"/>
   </div>
@@ -33,5 +32,13 @@ export default class Experience extends Vue {
   &.fadeInLeft {
     opacity: 1;
   }
+}
+
+.title {
+  margin-left: 10px;
+}
+
+.date {
+  float: right;
 }
 </style>
